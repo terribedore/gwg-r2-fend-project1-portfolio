@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  margin: 0; 
+  margin: 0;
 }
 
 header, nav, footer, section, article, div {
@@ -33,10 +33,10 @@ ul {
 /*
  *
  * Common
- * 
+ *
  */
 
-.news__more {
+.work__more {
   float: right;
   font-size: .8em;
   color: #333;
@@ -77,6 +77,9 @@ ul {
   color: #212121;
 }
 
+.header__role {
+  color: #bac2ce;
+}
 
 /*
  *
@@ -140,18 +143,21 @@ main {
 
 /*
  *
- * Hero
+ * Project01
+ * // once was called 'Hero'//
  *
  */
 
-.hero {
+.project01 {
   width: 100%;
-  position: relative;
-  background-image: url("./images/dog.jpg");
+  position: inline-block;
+  background-image: url("./images/noun_157858_cc-mod.png");
   background-size: cover;
   min-height: 300px;
 }
+/* TODO: Delete this if not used in final!*/
 
+/*
 .hero article {
   box-sizing: border-box;
   background-color: #000;
@@ -162,52 +168,57 @@ main {
   color: #fff;
   padding: 1em;
 }
+*/
 
+/* TODO: Delete this if not used in final! Irregardless, MUST CHANGE NAME OF ALL 'feat' mentions in this Section as it's used elsewhere.*/
 
 /*
  *
- * Top News
+ * Featured Work
  *
  */
 
-.top-news {
+/*
+.feat-work {
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
   width: 100%;
 }
 
-.news__title {
+.work__title {
   font-weight: 300;
   border-bottom: 1px solid #E0E0E0;
   line-height: 24px;
   font-size: 16px;
 }
 
-.top-news__item {
+.feat-work__item {
   border-bottom: 1px solid #E0E0E0;
   padding: 1em 0;
   line-height: 19.2px;
 }
 
-.top-news__item:before {
+.feat-work__item:before {
   content: "» ";
 }
 
-.top-news__item:last-child {
+.feat-work__item:last-child {
   border-bottom: none;
 }
 
-.top-news__item a {
+.feat-work__item a {
   text-decoration: none;
   color: #666;
   padding: 1.5em inherit;
 }
 
-.top-news__item a:hover,
-.top-news__item a:active {
+.feat-work__item a:hover,
+.feat-work__item a:active {
   text-decoration: underline;
 }
+*/
 
+/* TODO: Delete if not use in final! */
 
 /*
  *
@@ -215,6 +226,7 @@ main {
  *
  */
 
+/*
 .scores {
   padding-top: 1em;
   flex-grow: 1;
@@ -227,7 +239,7 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em; 
+  padding: 1em;
 }
 
 .scores__table th {
@@ -264,6 +276,9 @@ main {
 .scores__table td:nth-child(2) {
   text-align: center;
 }
+*/
+
+/* TODO: Delete if not used in Final. */
 
 /*
  *
@@ -271,6 +286,7 @@ main {
  *
  */
 
+/*
 .weather {
   flex-grow: 1;
   padding: 1em;
@@ -318,15 +334,15 @@ main {
 .weather__next__image {
   width: 100%;
 }
-
+*/
 
 /*
  *
- * Recent News
+ * Featured work
  *
  */
 
-.recent-news {
+.feat-work {
   flex-grow: 1;
   clear: both;
   padding: 1em;
