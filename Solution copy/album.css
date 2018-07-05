@@ -2,6 +2,14 @@
   --jumbotron-padding-y: 0.5rem;
 }
 
+.text-muted {
+  text-align: right;
+}
+
+.text-white {
+  text-align: right;
+}
+
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
