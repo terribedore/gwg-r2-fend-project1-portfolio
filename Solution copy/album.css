@@ -19,7 +19,7 @@
 
 /* For Mobile-Nexus 5 */
 /* for this breakpoint, I want the cards and jumbotron to be all in 1 column, centered on the screen. Jumbotron should be the same width as the rest of the cards. Margins should increase until reaches next breakpoint. */
-@media (min-width: 360px) {
+@media (max-width: 767px) {
   .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
