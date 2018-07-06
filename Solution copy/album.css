@@ -18,7 +18,7 @@
 }
 
 /* For Mobile-Nexus 5 */
-/* for this breakpoint, I want the cards and jumbotron to be all in 1 column, centered on the screen. Jumbotron should be the same width as the rest of the cards. Margins should increase until reaches next breakpoint. */
+/* for this breakpoint, I want the cards and jumbotron to be all in 1 column, centered on the screen. jumbotron should be the same width as the rest of the cards. Margins should increase until reaches next breakpoint. */
 @media (max-width: 767px) {
   .jumbotron {
     padding-top: var(--jumbotron-padding-y);
@@ -44,14 +44,14 @@
 }
 
 /* For Desktop */
-/* for this breakpoint, I want the cards to be in 3 columns with wider margins and padding. Both margins, cards, and jumbotron should increase until reaches next breakpoint. */
+/* for this breakpoint, I want the cards to be in 3 columns with wider margins and padding. Both margins, cards, and jumbotron should increase until reaches next breakpoint. bootstrap already creates this with their css cdn. */
 @media (min-width: 1024px) and (max-width: 2559px){
   .jumbotron {
   }
 }
 
 /* For 4k and up */
-/* for this breakpoint, I want the cards to be in 3 columns with wider margins and padding. this is the final Breakpoint. Only the outer left and right margins of containers will increase.) */
+/* for this breakpoint, I want the cards to be in 3 columns with wider margins and padding. this is the final Breakpoint. Only the outer left and right margins of containers will increase.) bootstrap already creates this with their css cdn. */
 @media (min-width: 2560px){
   .jumbotron {
   }
