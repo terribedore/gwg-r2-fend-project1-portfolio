@@ -1,0 +1,85 @@
+:root {
+  --jumbotron-padding-y: 0.5rem;
+}
+
+.text-muted {
+  text-align: right;
+}
+
+.text-white {
+  text-align: right;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+/* For Mobile-Nexus 5 */
+/* for this breakpoint, I want the cards and jumbotron to be all in 1 column, centered on the screen. Jumbotron should be the same width as the rest of the cards. Margins should increase until reaches next breakpoint. */
+@media (max-width: 767px) {
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  .jumbotron-img {
+    max-width: 100%;
+  }
+}
+
+/* For Tablet-iPad */
+/* for this breakpoint, I want the cards to be in 3 columns with narrow margins and padding. Remember that outer card borders need to align with borders of jumbotron. Both margins, cards, and jumbotron should increase until reaches next breakpoint. */
+@media (min-width: 768px) and (max-width: 1023px){
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2); /* this is where the cards go from 1 column to 3 columns */
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2); /* this is where the cards go from 1 column to 3 columns */
+  }
+  .jumbotron-img {
+    max-width: 100%;
+  }
+}
+
+/* For Desktop */
+/* for this breakpoint, I want the cards to be in 3 columns with wider margins and padding. Both margins, cards, and jumbotron should increase until reaches next breakpoint. */
+@media (min-width: 1024px) and (max-width: 2559px){
+  .jumbotron {
+  }
+}
+
+/* For 4k and up */
+/* for this breakpoint, I want the cards to be in 3 columns with wider margins and padding. this is the final Breakpoint. Only the outer left and right margins of containers will increase.) */
+@media (min-width: 2560px){
+  .jumbotron {
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album-heading {
+  font-weight: 300;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
